@@ -16,6 +16,8 @@ It is a <b>static website</b> with multiple pages, designed to simulate a bookst
 - Multiple pages for browsing  
 <br>
 - Clean and simple design with only HTML & CSS  
+<br>
+- Animations with AOS (Animate On Scroll) for smoother user experience
 <h2>Lessons Learned</h2>
 - Structuring a multi-page website  
 <br>
