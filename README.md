@@ -5,7 +5,9 @@
 It is a **static website** with multiple pages, designed to simulate a bookstore interface.</p>
 <h3>Features</h3>
 - Home page with bookstore introduction  
+<br>
 - Multiple pages for browsing  
+<br>
 - Clean and simple design with only HTML & CSS  
 <h3>Tech Use</h3>
 <p align="center">
@@ -14,7 +16,9 @@ It is a **static website** with multiple pages, designed to simulate a bookstore
 </p>
 <h3>Lessons Learned</h3>
 - Structuring a multi-page website  
+<br>
 - Using semantic HTML  
+<br>
 - Styling layouts with CSS  
 <h3>More projects</h3>
 <table>
