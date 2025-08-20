@@ -1,0 +1,468 @@
+@font-face {
+    font-family: Hanuman;
+    src: url(../../webfonts/Hanuman-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.slogan{font-family: Hanuman!important;
+    width: 100%;
+    height: 30px;
+    /* margin: auto; */
+    /* padding-left: 120px; */
+    align-items: center;
+    background-color: rgb(60, 104, 85);
+    position: fixed;
+    z-index: 91;
+    
+}
+.slogan p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    
+    position: fixed;
+    z-index: 90;
+    align-items: center;
+    background-color: white;
+    /* background-color: rgb(197, 226, 247); */
+    /* border: 1px solid rgb(197, 226, 247); */
+    
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    /* background-color: rgb(201, 171, 131); */
+    float: left;
+    margin-top: 18px;
+    margin-left: 130px;
+    background-image: url(../../img/seven.logo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.list{
+    width: 740px;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    /* float: left; */
+    margin-left: 370px;
+    /* position: fixed;
+    z-index: 1; */
+}
+
+.list ul{
+    width: 100%;
+    height: 100px;
+}
+
+.list ul li{
+    list-style-type: none;
+    float:left ;
+}
+.list ul li a{
+    text-decoration: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: Khmer OS Battambang;
+    font-size: 20px;
+    color: rgb(53, 102, 116);
+
+}
+.list ul li a:hover{
+    border-bottom: 1px solid rgb(19, 57, 59);
+}
+.clear{
+    clear: both;
+}
+
+.dropdown-item{
+    width: 180px;
+    height: 390px;
+    background-color: rgb(134, 172, 149);
+   border-radius: 8px;
+    /* margin-top: 71px; */
+    position: absolute;
+    display: none;
+    transition: 1s;
+    z-index: 1;
+    
+
+}
+.dropdown-item ul{
+    width: 100%;
+  
+}
+.dropdown-item ul li{
+    width: 100%;
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .dropdown-item{
+    display: block;
+    height: auto;
+}
+.dropdown-item ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 0px;
+}
+.dropdown-item ul a{
+    margin: 0px!important;
+    padding: 4px 10px!important;
+}
+.dropdown-item ul a:hover{
+    border: none!important;
+    color: #005296!important;
+    background-color: #ffffff6d;
+}
+.narbar{
+    width: 1200px;
+    height: 4500px;
+    margin: auto;
+    
+    /* background-color: rgb(194, 227, 194); */
+}
+
+
+
+.bookstore{
+    width: 1200px;
+    height: 705px; 
+    /* margin-left: 230px; */
+    background-color: antiquewhite;
+    background-image: url(../../img/books1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* position: relative;
+    transition: 1s; */
+
+}
+.bookstore img
+{
+    width: 1200px;
+    height: 100%;
+ 
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* .text{
+    width: 1200px;
+    height: 100%;
+    background-color: rgb(194, 227, 194);
+    position: absolute;
+    overflow: hidden;
+    opacity: 0%;
+    transition: 1s;
+} */
+/* .bookstore:hover .text{
+    opacity: 95%;
+    box-shadow: 1px 1px 1px 2px solid lightgreen;
+} */
+.bestseller{
+    width: 100%;
+    padding: 10px;
+    float: left;
+    margin-top: 50px;
+    border-bottom: 2px solid antiquewhite;
+}
+.bestseller hr{
+    width: 150px;
+    height: 1px;
+    background-color: green;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.bestseller p{
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: Khmer OS Battambang;
+    font-size: 25px;
+}
+.bestsellerbook{
+    width: 1200px;
+    height: 430px;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-top: 20px;
+}
+.best{
+    width: 19%;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(130, 161, 130);
+    float: left;
+    margin-left: 12px;
+    overflow: hidden;
+    transition: 1s;
+    position: relative;
+    padding-bottom: 30px;
+    font-family: Hanuman!important;
+}
+.best img{ 
+    width: 100%;
+    height: 75%;
+    border-bottom: 2px solid green;
+  
+}
+.buynow{
+    float: right;
+
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color: rgb(47, 83, 47);
+    border-radius: 5px;
+    font-size: 15px;text-align: center;
+    
+}
+.buynow a{
+    width: 100%;
+    display: inline-block;
+    padding: 4px 0px!important;
+}
+.best:hover{
+    transform: scale(1.05);
+    display: block;
+    box-shadow: 0px 0px 1px 2px rgb(181, 233, 181);
+}
+
+.aboutus 
+{
+    width: 220px;
+    height: 80px;
+    background-color:  rgb(47, 83, 47);
+    margin: auto;
+    border-radius: 20px;
+ 
+
+}
+.aboutus a{
+    text-decoration: none;
+    color: white;
+    font-family: Taprom;
+    padding: 18px;
+    float: left;
+    /* margin-top: 20px; */
+    transition: 1s;
+}
+.aboutus:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 1px 1.5px solid white;
+}
+
+
+
+
+.rsellerbook{
+    width: 1200px;
+    height: 860px;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-top: 20px;
+}
+
+.rbest{
+    width: 19%;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(130, 161, 130);
+    float: left;
+    margin-top: 35px;
+    margin-left: 12px;
+    overflow: hidden;
+    transition: 1s;
+    position: relative;
+    padding-bottom: 30px;
+    font-family: Hanuman!important;
+}
+.rbest img{ 
+    width: 100%;
+    height: 75%;
+    border-bottom: 2px solid green;
+  
+}
+
+.seemore{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 138, 95);
+    border-radius: 10px;
+    transition: 1s;
+}
+.rbest:hover{
+    transform: scale(1.05);
+    display: block;
+    box-shadow: 0px 0px 1px 2px rgb(181, 233, 181);
+}
+.seemore:hover{
+    transform: scale(1.1);
+    background-color: rgb(21, 68, 21);
+    border: 2px solid rgb(181, 233, 181);
+}
+
+.footer{
+    width: 1200px;
+    height: 500px;
+    /* float: left; */
+    margin: auto;
+    background-color:white;
+    opacity: 90%;
+    clear: both;
+   
+}
+.footer h2{
+    font-family: khmer Os Battambang;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.promise{
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-right: 200px;
+    /* background-color: antiquewhite; */
+}
+.promise i{
+    font-size: 50px;
+}
+
+.social{
+    width: 460px;
+    height: 70px;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+
+}
+.social a i{
+    float: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 50px;
+    transition: 1s;
+    
+    
+}
+
+.footer hr{
+    width: 1200px;
+    height: 1px ;
+    float: left;
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+   
+}
+.footer p{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.write{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    background-color: rgb(60, 104, 85);
+}
+.explore{
+    width: 430px;
+    height: 90px;
+    float: left;
+    margin-left: 30PX;
+    margin-top: 20px;
+    /* background-color: rgb(119, 83, 37); */
+}
+.home{
+    width: 680px;
+    height: 30px;
+    float: left;
+    margin-top: 150px;
+    margin-left: -430px;
+    /* background-color: rgb(40, 80, 114); */
+}
+.home ul{
+    width: 100%;
+    height: 100%;
+}
+.home ul li{
+    float: left;
+    list-style-type: none;
+}
+.home ul li a{
+    text-decoration: none;
+    font-size: 19px;
+
+    margin-left: 60px;
+    color: white;
+    font-family: khmer OS Battambang;
+    transition: 1s;
+    
+}
+.home ul li a:hover{
+    color: rgb(108, 169, 133);
+    display: block;
+}
+iframe {
+    margin-left: 60px;
+    margin-top: 30px;
+}

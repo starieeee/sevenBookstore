@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Hanuman;
+    src: url(../../webfonts/Hanuman-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Hanuman;
+}
+.slogan{
+    width: 100%;
+    height: 30px;
+    /* margin: auto;
+    margin-left: 90px; */
+    align-items: center;
+    background-color: rgb(60, 104, 85);
+    position: fixed;
+    z-index: 91;
+    
+}
+.slogan p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: white;
+  
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    /* margin: auto;
+    margin-left: 90px; */
+    align-items: center;
+    position: fixed;
+    z-index: 90;
+    background-color: white;
+    /* background-color: rgb(197, 226, 247); */
+    /* border: 1px solid rgb(197, 226, 247); */
+    
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    /* background-color: rgb(201, 171, 131); */
+    float: left;
+    margin-top: 18px;
+    margin-left: 130px;
+    background-image: url(../../img/seven.logo-removebg-preview.png);background-position: center;
+    background-size: cover;
+}
+
+.list{
+    width: 740px;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    /* float: left; */
+    margin-left: 370px;
+}
+
+.list ul{
+    width: 100%;
+    height: 100px;
+}
+
+.list ul li{
+    list-style-type: none;
+    float:left ;
+}
+.list ul li a{
+    text-decoration: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: Khmer OS Battambang;
+    font-size: 20px;
+    color: rgb(53, 102, 116);
+
+}
+.list ul li a:hover{
+    border-bottom: 1px solid rgb(19, 57, 59);
+}
+.clear{
+    clear: both;
+}
+
+.dropdown-item{
+    width: 180px;
+    height: 390px;
+    background-color: rgb(134, 172, 149);
+   border-radius: 8px;
+    /* margin-top: 71px; */
+    position: absolute;
+    display: none;
+    transition: 1s;
+    z-index: 1;
+    
+
+}
+.dropdown-item ul{
+    width: 100%;
+  
+}
+.dropdown-item ul li{
+    width: 100%;
+  
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .dropdown-item{
+    display: block;
+    height: auto;
+}
+.dropdown-item ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 0px;
+}
+.dropdown-item ul a{
+    margin: 0px!important;
+    padding: 4px 10px!important;
+}
+.dropdown-item ul a:hover{
+    border: none!important;
+    color: #005296!important;
+    background-color: #ffffff6d;
+}
+.narbar{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    padding-top: 90px;
+    background-color:rgb(235, 246, 237);
+    
+}
+.text{
+    width: 1200px;
+    height: 500px;
+    float: left;
+    margin-top: 40px;
+    /* background-color: rgb(181, 159, 131); */
+   
+    float: left;
+}
+.text h1{
+    font-family: khmer Os Battambang;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(71, 103, 75);
+}
+.t1{
+    width: 550px;
+    height: 380px;
+    float: left;
+    margin-top: 30px;
+    /* background-color: rgb(138, 111, 75); */
+}
+.t1 p{
+    font-family: khmer Os Battambang;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.two{
+    float: left;
+    margin-top: 30px;
+    width: 1200px;
+    height: 450px;
+    background-color: rgb(235, 246, 237);
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(46, 83, 46);
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1.5px solid mintcream;
+    transition: 1s;
+}
+
+.box a i{
+    color: white;
+    font-size: 150px;
+    padding: 70px 130px;
+}
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 1px 1px greenyellow;
+    display: block;
+}
+.footer{
+    width: 1200px;
+    height: 500px;
+    /* float: left; */
+    margin: auto;
+    background-color:white;
+    opacity: 90%;
+   
+}
+.footer h2{
+    font-family: khmer Os Battambang;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.promise{
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-right: 200px;
+    /* background-color: antiquewhite; */
+}
+.promise i{
+    font-size: 50px;
+}
+
+.social{
+    width: 460px;
+    height: 70px;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+
+}
+.social a i{
+    float: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 50px;
+    transition: 1s;
+    
+    
+}
+
+.footer hr{
+    width: 1200px;
+    height: 1px ;
+    float: left;
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+   
+}
+.footer p{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.write{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    background-color: rgb(60, 104, 85);
+}
+.explore{
+    width: 430px;
+    height: 90px;
+    float: left;
+    margin-left: 30PX;
+    margin-top: 20px;
+    /* background-color: rgb(119, 83, 37); */
+}
+.home{
+    width: 680px;
+    height: 30px;
+    float: left;
+    margin-top: 150px;
+    margin-left: -430px;
+    /* background-color: rgb(40, 80, 114); */
+}
+.home ul{
+    width: 100%;
+    height: 100%;
+}
+.home ul li{
+    float: left;
+    list-style-type: none;
+}
+.home ul li a{
+    text-decoration: none;
+    font-size: 19px;
+
+    margin-left: 60px;
+    color: white;
+    font-family: khmer OS Battambang;
+    transition: 1s;
+    
+}
+.home ul li a:hover{
+    color: rgb(108, 169, 133);
+    display: block;
+}
+iframe {
+    margin-left: 60px;
+    margin-top: 30px;
+}
